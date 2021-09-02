@@ -1,0 +1,124 @@
+{
+  "rules": {
+    "no-unnecessary-type-assertion": true,
+    "array-type": [
+      true,
+      "array"
+    ],
+    "ban-types": {
+      "options": [
+        [
+          "Object",
+          "Avoid using the `Object` type. Did you mean `object`?"
+        ],
+        [
+          "Function",
+          "Avoid using the `Function` type. Prefer a specific function type, like `() => void`, or use `ts.AnyFunction`."
+        ],
+        [
+          "Boolean",
+          "Avoid using the `Boolean` type. Did you mean `boolean`?"
+        ],
+        [
+          "Number",
+          "Avoid using the `Number` type. Did you mean `number`?"
+        ],
+        [
+          "String",
+          "Avoid using the `String` type. Did you mean `string`?"
+        ]
+      ]
+    },
+    "class-name": true,
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "interface-over-type-literal": true,
+    "no-inferrable-types": true,
+    "no-internal-module": true,
+    "no-null-keyword": true,
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": [
+      true,
+      "ignore-template-strings"
+    ],
+    "no-unnecessary-qualifier": true,
+    "no-var-keyword": true,
+    "object-literal-shorthand": true,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "prefer-const": true,
+    "quotemark": [
+      true,
+      "double",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "space-within-parens": true,
+    "triple-equals": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "member-variable-declaration",
+      "arrow-call-signature",
+      "arrow-parameter",
+      "property-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type"
+    ],
+    "prefer-readonly": true,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "public-static-method",
+          "public-instance-field",
+          "private-readonly-field",
+          "public-constructor",
+          "public-instance-method",
+          "protected-static-field",
+          "protected-static-method",
+          "protected-instance-field",
+          "protected-constructor",
+          "protected-instance-method",
+          "private-static-field",
+          "private-static-method",
+          "private-instance-field",
+          "private-constructor",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "member-access": true
+  }
+}
