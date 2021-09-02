@@ -44,8 +44,6 @@ The first noticeable thing is the package size:
 
 ![picture](https://github.com/ymwjbxxq/dotnetcore3.1-vs-nodejs-aws-sqs-lambda-dynamodb/blob/main/node2.2.png)
 
-![picture](https://github.com/ymwjbxxq/dotnetcore3.1-vs-nodejs-aws-sqs-lambda-dynamodb/blob/main/node2.3.png)
-
 **Dotnetcore3.1:**
 
 ![picture](https://github.com/ymwjbxxq/dotnetcore3.1-vs-nodejs-aws-sqs-lambda-dynamodb/blob/main/dotnet2.1.png)
