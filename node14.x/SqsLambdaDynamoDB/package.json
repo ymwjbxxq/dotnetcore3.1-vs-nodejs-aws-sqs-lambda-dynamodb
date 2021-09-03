@@ -1,17 +1,12 @@
 {
-  "name": "execute-package-manager",
+  "name": "lambda",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "build:deploy": "tsc -p tsconfig.build.json",
-    "deploy": "npm run build:deploy && webpack",
-    "test": "npm run build && jest --maxWorkers=4 --coverage --no-cache --passWithNoTests",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
-    "lint": "npm run lint:code && npm run lint:test",
-    "lint:code": "tslint -c tslint.json 'src/**/*.ts'",
-    "lint:test": "tslint -c tslint.json 'tests/**/*.ts'"
+    "deploy": "npm run build:deploy && webpack"
   },
   "author": "",
   "license": "ISC",
